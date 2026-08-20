@@ -1,0 +1,17 @@
+{
+  "name": "devops-task-manager",
+  "version": "1.0.0",
+  "description": "Simple Node.js REST API for DevOps practice",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
